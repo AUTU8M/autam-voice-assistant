@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'autam',
       theme: ThemeData.light(useMaterial3: true).copyWith(
         scaffoldBackgroundColor: Pallete.whiteColor,
-        appBarTheme: AppBarTheme(backgroundColor: Pallete.whiteColor),
+        appBarTheme: const AppBarTheme(backgroundColor: Pallete.whiteColor),
       ),
       home: const HomePage(),
       debugShowCheckedModeBanner: false,
