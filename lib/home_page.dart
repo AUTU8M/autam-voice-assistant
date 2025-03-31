@@ -234,7 +234,7 @@ class _HomePageState extends State<HomePage> {
                   color: Pallete.secondSuggestionBoxColor,
                   headerText: 'Dall-E',
                   descriptionText:
-                      'Get inspired and stay creative with your personal assistant powered by Dall-E',
+                      'Get inspired and stay creative with your personal assistant powered by Dall-E.',
                 ),
                 FeatureBox(
                   color: Pallete.thirdSuggestionBoxColor,
