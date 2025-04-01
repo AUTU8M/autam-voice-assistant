@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
       return;
     }
 
-    // Ensure speech recognition is available
+    // Ensure speech recognition is availablee
     if (!speechToText.isAvailable) {
       print('Speech recognition is not available');
       return;
