@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
       return;
     }
 
-    // Start listening
+    // Start listening.
     try {
       await speechToText.listen(
         onResult: onSpeechResult,
@@ -254,7 +254,8 @@ class _HomePageState extends State<HomePage> {
           if (await speechToText.hasPermission && speechToText.isNotListening) {
             await startListening();
           } else if (speechToText.isListening) {
-            await openAIService.isArtPromtAPI(lastWords);
+            final speech = await openAIService.isArtPromtAPI(lastWords);
+            print(speech);
             await stopListening();
           } else {
             initSpeechToText();
