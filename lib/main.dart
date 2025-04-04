@@ -12,13 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'autam',
+      debugShowCheckedModeBanner: false,
+      title: 'Allen',
       theme: ThemeData.light(useMaterial3: true).copyWith(
         scaffoldBackgroundColor: Pallete.whiteColor,
         appBarTheme: const AppBarTheme(backgroundColor: Pallete.whiteColor),
       ),
       home: const HomePage(),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
